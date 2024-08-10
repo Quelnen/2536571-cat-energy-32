@@ -21,19 +21,19 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
-            <a href="site-list__link">Главная</a>
+            <a class="site-list__link" href="#">Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="site-list__link">Каталог продукции</a>
+            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="site-list__item">
-            <a href="site-list__link">Подбор программы</a>
+            <a class="site-list__link" href="#">Подбор программы</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  <main class="main-container">
+  <main class="main-wrapper">
     <h1 class="visually-hidden">
       Кэт Энерджи
     </h1>
@@ -95,9 +95,57 @@
           </div>
         </dl>
         <p class="example_result">Затраты на питание: <span class="example_cost">15 000 РУБ.</span></p>
+        <div class="example_slider slider">
+          <ul class="example_list">
+            <li class="slider_item slider_item--primary">
+              <img class="slider_image" src="#" width="560" height="512" alt="Пример кота">
+            </li>
+            <li class="slider_item slider_item--second">
+              <img class="slider_image" src="#" width="560" height="512" alt="Пример кота">
+            </li>
+          </ul>
+          <p class="example_toggle slider_toggle">
+            <button class="slider_toggle" type="button">1</button>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <h2 class="visually-hidden">
+        Карта
+      </h2>
+      <div class="map_description invite">
+        <h3 class="invite_title">приглашаем к сотрудничеству дилеров!</h3>
+        <p class="invite_description">ул. Большая
+          Конюшенная, д. 19/8</p>
+        <p class="invite_address">Санкт-Петербург</p>
       </div>
     </section>
   </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__logo logo">
+        <img class="logo" src="#" width="128" height="24" alt="Логотип Кэт Энерджи">
+      </div>
+      <div class="main-footer__socials socials">
+        <ul class="socials_list">
+          <li class="socials_item">
+            <a href="socials_link--vk">vk</a>
+          </li>
+          <li class="socials_item">
+            <a href="socials_link--youtube">youtube</a>
+          </li>
+          <li class="socials_item">
+            <a href="socials_link--telegram">telegram</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__copyright copyright">
+        <a class="copyright_link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <a class="copyright_logo copyright_logo--academy" href="https://htmlacademy.ru/intensive/adaptive">Логотип HTML Academy</a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
