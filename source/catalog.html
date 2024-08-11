@@ -14,17 +14,17 @@
     <a class="main-header__logo" href="#">
       <img class="main-header__logo-image" width="70" height="59" src="#" alt="Кэт Энерджи»">
     </a>
-    <nav class="main__nav">
-      <button class="main-nav-toogle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
+    <nav class="main-nav">
       <div class="main-nav__wrapper">
+        <button class="main-nav-toogle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
         <ul class="main-nav__list site-list">
-          <li class="site-list__item">
-            <a class="site-list__link" href="index.html">Главная</a>
+          <li class="site-list__item site-list__item--active">
+            <a class="site-list__link" href="#">Главная</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link site-list__item--active" href="#">Каталог продукции</a>
+            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="site-list__item">
             <a class="site-list__link" href="#">Подбор программы</a>
@@ -219,7 +219,7 @@
     <section class="promo">
       <h2 class="promo__title">Акции и новинки</h2>
       <form class="promo__form form" method="get" action="https://echo.htmlacademy.ru">
-        <legend class="form__title">Подпишитесь на наши новости и не пропустите ни одного предложения!</legend>
+        <p class="form__title">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
         <label for="email">
           <input class="form__input" type="text" name="email" id="email" placeholder="кuklachev@gmail.com" required>
         </label>
