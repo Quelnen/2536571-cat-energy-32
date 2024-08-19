@@ -3,9 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>Кэт Энерджи</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="./favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./favicons/180.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -42,7 +47,11 @@
         питание для котов</h2>
       <p class="hero__description">Занялся собой? Займись котом!</p>
       <a class="hero__link" href="#">подобрать программу</a>
-      <img class="hero__image" width="552" height="499" src="#" alt="Банка еды для котов кэт энерджи»">
+      <picture>
+        <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="./images/index-can-desktop@1x.png 1x, ./images/index-can-desktop@2x.png 2x ">
+        <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="./images/index-can-tablet@1x.png 1x, ./images/index-can-tablet@2x.png 2x ">
+        <img class="hero__image" width="280" height="270" src="./images/index-can-mobile@1x.png" srcset="./images/index-can-mobile@2x.png 2x" alt="Банка еды для котов кэт энерджи»">
+      </picture>
     </section>
     <section class="services">
       <div class="services-wrapper">
@@ -98,10 +107,18 @@
         <div class="example__slider slider">
           <ul class="example__list">
             <li class="slider__item slider__item--primary">
-              <img class="slider__image" src="#" width="560" height="512" alt="Пример кота">
+              <picture>
+                <source width="560" height="512" media="(min-width:1440px)" srcset="./images/cat-before-desktop@1x.png 1x, ./images/cat-before-desktop@2x.png 2x " type="image/png">
+                <source width="560" height="512" media="(min-width:768px)" srcset="./images/cat-before-tablet@1x.png 1x, ./images/cat-before-tablet@2x.png 2x " type="image/png">
+                <img class="slider__image" src="./images/cat-before-phone@1x.png" srcset="./images/cat-before-phone@2x.png 2x" width="280" height="256" alt="Пример кота">
+              </picture>
             </li>
             <li class="slider__item slider__item--second">
-              <img class="slider__image" src="#" width="560" height="512" alt="Пример кота">
+              <picture>
+                <source width="560" height="512" media="(min-width:1440px)" srcset="./images/cat-after-desktop@1x.png 1x, ./images/cat-after-desktop@2x.png 2x " type="image/png">
+                <source width="560" height="512" media="(min-width:768px)" srcset="./images/cat-after-tablet@1x.png 1x, ./images/cat-after-tablet@2x.png 2x " type="image/png">
+                <img class="slider__image" src="./images/cat-after-phone@1x.png" srcset="./images/cat-after-phone@2x.png 2x" width="280" height="256" alt="Пример кота">
+              </picture>
             </li>
           </ul>
           <p class="example__toggle slider__toggle">
