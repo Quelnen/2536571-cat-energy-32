@@ -1,13 +1,27 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
 
-/* BLOCKS */
-@import "./blocks/header.scss";
 
-// body {
-//   /* stylelint-disable-next-line color-named */
-//   $bg-color: darkorange;
-//   background-color: $bg-color;
-// }
+/* BLOCKS INDEX */
+@import "./blocks/main-header.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/main-wrapper.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/services.scss";
+@import "./blocks/stage.scss";
+@import "./blocks/example.scss";
+@import "./blocks/map.scss";
+@import "./blocks/main-footer.scss";
+
+/* BLOCKS CATALOG */
+@import "./blocks/catalog-wrapper.scss";
+@import "./blocks/price.scss";
+@import "./blocks/catalog-item.scss";
+@import "./blocks/catalog-item-more.scss";
+@import "./blocks/additional.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/form.scss";
+
